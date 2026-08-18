@@ -5,7 +5,7 @@ class Lugar{
   final String descripcionCorta;
   final String descripcionLarga;
   final String imagenUrl;
-  final String emouji;
+  final String emoji;
 
   const Lugar({
     required this.nombre,
@@ -13,7 +13,7 @@ class Lugar{
     required this.descripcionCorta,
     required this.descripcionLarga,
     required this.imagenUrl,
-    required this.emouji,
+    required this.emoji,
   });
 }
 
