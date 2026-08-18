@@ -1,17 +1,9 @@
-# flutter_application_1
+# Actividad Integradora 1
+## Uso de Flutter Doctor.
 
-A new Flutter project.
+Se ejecuta Flutter Doctor para Comprobar si el entorno esta correctamente instalado y no le falta ningun complemento para su correcto funcionamiento.
 
-## Getting Started
+![Workspace preview placeholder](https://res.cloudinary.com/lzzd6yy4/image/upload/f_auto,q_auto/Captura_de_pantalla_2026-08-08_180934)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Luego de Compromprobar que el entorno esta Correctamente instalado se crea el proyecto y a su vez se abre el emulador de android para su comprobación.
+![Workspace preview placeholder](https://res.cloudinary.com/lzzd6yy4/image/upload/f_auto,q_auto/Captura_de_pantalla_2026-08-13_211211)
