@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/models/lugar.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
+
 class LugarCard extends StatefulWidget {
   final Lugar lugar;
 
@@ -46,7 +47,7 @@ class _LugarCardState extends State<LugarCard> {
               Icons.broken_image_outlined,
             ),
           ),
-          Padding(
+          Padding( 
             padding: const EdgeInsets.all(14),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -57,10 +58,7 @@ class _LugarCardState extends State<LugarCard> {
                     const SizedBox(width: 8),
                     Text(
                       lugar.nombre,
-                      style: const TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
+                      style: Theme.of(context).textTheme.titleLarge,
                     ),
                   ],
                 ),

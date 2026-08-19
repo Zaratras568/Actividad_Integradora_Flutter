@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/home_screen.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -12,6 +13,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF0072CE)),
+        textTheme: TextTheme(
+          titleLarge: GoogleFonts.lora(fontWeight: FontWeight.bold),
+        ),
+
       ),
       home: const MyHomePage(title: 'Ecuador Explorer EC'),
     );
