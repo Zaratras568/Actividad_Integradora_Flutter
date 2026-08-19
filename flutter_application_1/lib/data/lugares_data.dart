@@ -1,5 +1,6 @@
 import 'package:flutter_application_1/models/lugar.dart';
 
+// Datos para las card 
 const List<Lugar> lugaresEcuador = [
   Lugar(
     nombre: 'Quito',
@@ -10,7 +11,7 @@ const List<Lugar> lugaresEcuador = [
         'mejor conservados de América Latina, con iglesias coloniales, '
         'plazas y el Panecillo como mirador de la ciudad.',
     imagenUrl:
-        'https://wp-content.miviaje.com/2019/01/centro-historico-quito.jpg?auto=format%2Ccompress&quality=75&width=640&height=360&fit=cover&gravity=center&sharp=true&progressive=true',
+        'https://dynamic-media.tacdn.com/media/photo-o/2f/02/07/39/caption.jpg?w=1100&h=800&s=1',
     emoji: '🏛️',
   ),
   Lugar(
@@ -22,7 +23,7 @@ const List<Lugar> lugaresEcuador = [
         'y el barrio de Las Peñas, con casas coloridas junto al río Guayas, '
         'son parada obligada.',
     imagenUrl:
-        'https://malecon.org.ec/public/turismo_atractivos/28ccd44f43ec4172467fcb0307f39dd3.jpg',
+        'https://dynamic-media.tacdn.com/media/photo-o/31/d6/56/e3/caption.jpg?w=1400&h=1000&s=1',
     emoji: '🌆',
   ),
   Lugar(
@@ -34,7 +35,7 @@ const List<Lugar> lugaresEcuador = [
         'sus iglesias y su vibrante escena cultural. El río Tomebamba atraviesa '
         'la ciudad, añadiendo encanto a sus calles empedradas.',
     imagenUrl:
-        'https://santaluciahotel.com/wp-content/uploads/2024/12/cuenca-city-in-ecuador.jpg',
+        'https://dynamic-media.tacdn.com/media/photo-o/2f/2d/43/1b/caption.jpg?w=1100&h=800&s=1',
     emoji: '🏘️',
   ),
   Lugar(
@@ -59,7 +60,7 @@ const List<Lugar> lugaresEcuador = [
         'teoría de la evolución de Charles Darwin. Es un destino ideal para '
         'los amantes de la naturaleza y la vida silvestre.',
     imagenUrl:
-        'https://www.infobae.com/resizer/v2/B5NNZFJ5J5EPPH5RCDEUVHHJHA?auth=197468950111e15ab526bba57f15114be2ff9ab73948a88912f63697835adcdd&smart=true&width=992&height=558&quality=85',
+        'https://imagenes.20minutos.es/files/image_1280_720/files/fp/uploads/imagenes/2024/09/20/islas-galapagos.r_d.1493-1950.jpeg',
     emoji: '🐢',
   ),
 ];

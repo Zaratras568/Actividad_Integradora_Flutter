@@ -10,9 +10,9 @@ class LugarCard extends StatefulWidget {
   @override
   State<LugarCard> createState() => _LugarCardState();
 }
-
-class _LugarCardState extends State<LugarCard> {
-  bool _expandido = false;
+//clase para crear la card de cada lugar con su informacion
+class _LugarCardState extends State<LugarCard> { 
+  bool _expandido = false; // Variable para controlar si la descripcion larga esta expandida o no
 
   void _toggleExpandido() {
     setState(() {
@@ -22,15 +22,19 @@ class _LugarCardState extends State<LugarCard> {
 
   @override
   Widget build(BuildContext context) {
-    final lugar = widget.lugar;
-
+    final lugar = widget.lugar; // Obtiene el lugar pasado como argumento al widget LugarCard
+    //crea la card con la informacion de cada lugar
     return Card(
       clipBehavior: Clip.antiAlias,
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          CachedNetworkImage(
+          /* Paquete externo instalado (cached_network_image): carga y cachea
+          la imagen desde internet. Muestra un loader mientras descarga
+          (placeholder) y un ícono si la URL falla (errorWidget).
+          Utiliza CachedNetworkImage para cargar la imagen desde la URL*/
+          CachedNetworkImage( 
             imageUrl: lugar.imagenUrl,
             height: 180,
             width: double.infinity,
@@ -71,6 +75,7 @@ class _LugarCardState extends State<LugarCard> {
                   Text(lugar.descripcionLarga),
                 ],
                 const SizedBox(height: 10),
+                //crea el boton para expandir y contraer la descripcion larga
                 ElevatedButton(
                   onPressed: _toggleExpandido,
                   child: Text(_expandido ? 'Ocultar' : 'Ver más'),

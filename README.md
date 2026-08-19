@@ -15,3 +15,5 @@ Luego de Compromprobar que el entorno esta Correctamente instalado se crea el pr
  de internet lo cual ayuda a mantenerla mediante cache en el dispositivo y ayuda tambien a mostrar altermativas cuando la imagen no carga sin necesidad de una programacion adicional.
  
  ![Workspace preview placeholder](https://res.cloudinary.com/zyirbcxr/image/upload/v1787031306/Captura_de_pantalla_2026-08-18_003143.png)
+
+ 
